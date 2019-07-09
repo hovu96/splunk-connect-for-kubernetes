@@ -216,6 +216,7 @@ data:
         source_key source
         sourcetype_key sourcetype
         insecure_ssl true
+        use_raw_endpoint_for_events false
         <fields>
           pod
           namespace

@@ -75,6 +75,8 @@ splunk:
     indexRouting:
     # indexRoutingDefaultIndex tells which index to use for the default kubenetes namespace. Used with indexRouting. Default is main.
     indexRoutingDefaultIndex:
+    # useRawEndpointForEvents tells whether or not to send data to the "services/collector/raw" endpoint, instead of the "services/collector" endpoint. Default is false.
+    useRawEndpointForEvents:
 
 
 # Create or use existing secret if name is empty default name is used
